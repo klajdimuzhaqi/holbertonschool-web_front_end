@@ -8,7 +8,7 @@
     <meta name="description" content="Description of the page less than 150 characters">
     <link rel="icon" type="image/png" href="images/favicon.jpg">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Raleway:700&display=swap" rel="stylesheet">
-    <link rel='stylesheet' href='02-styles.css'>
+    <link rel='stylesheet' href='05-style.css'>
 </head>
 
 <body>
@@ -21,6 +21,10 @@
                         <img src="images/logo-white.png" alt="Techium logo" width="160" height="40">
                     </a>
                 </div>
+                <input class="menu-btn" type="checkbox" id="menu-btn">
+                <label class="menu-icon" for="menu-btn">
+                    <span class="navicon"></span>
+                </label>
                 <nav class="navbar-menu">
                     <ul class="nav">
                         <li class="nav-item">
@@ -137,7 +141,7 @@
                             <article class="card-work">
                                 <div class="card-outer">
                                     <div class="card-image">
-                                        <img src="images/pic-work-01.jpg" alt="">
+                                        <img src="images/phillip.png" alt="">
                                     </div>
                                     <div class="card-inner">
                                         <h3 class="card-title"><a href="#">Interior Design</a></h3>
@@ -149,7 +153,7 @@
                             <article class="card-work">
                                 <div class="card-outer">
                                     <div class="card-image">
-                                        <img src="images/pic-work-02.jpg" alt="">
+                                        <img src="images/sad_smile.png" alt="">
                                     </div>
                                     <div class="card-inner">
                                         <h3 class="card-title"><a href="#">Web Development</a></h3>
@@ -161,7 +165,7 @@
                             <article class="card-work">
                                 <div class="card-outer">
                                     <div class="card-image">
-                                        <img src="images/pic-work-03.jpg" alt="">
+                                        <img src="images/bruce.png" alt="">
                                     </div>
                                     <div class="card-inner">
                                         <h3 class="card-title"><a href="#">Personal Development</a></h3>
@@ -183,7 +187,7 @@
                 <div class="section-body">
                     <div class="row">
                         <div class="col-1-2">
-                            <img src="images/pic-about-01.jpg" alt="" width="460" height="460">
+                            <img src="images/bruce.png" alt="" width="460" height="460">
                         </div>
                         <div class="col-1-2">
                             <h3>Who are we</h3>
@@ -217,7 +221,10 @@
                         <li class="col-1-3">
                             <article class="card-blog">
                                 <div>
-                                    <img src="images/pic-article-01.jpg" alt="" width="305" height="305">
+                                    <img sizes="(max-width: 3000px) 40vw, 1200px" srcset="
+                        images/diagonal_smile_w_380.png 380w,
+                        images/diagonal_smile_w_853.png 853w,
+                        images/diagonal_smile_w_1200.png 1200w" src="images/diagonal_smile_w_1200.png" alt="">
                                 </div>
                                 <p class="card-category">Career</p>
                                 <h3><a href="#">Hoc loco tenere se Triarius non potuit.</a></h3>
@@ -229,7 +236,10 @@
                         <li class="col-1-3">
                             <article class="card-blog">
                                 <div>
-                                    <img src="images/pic-article-02.jpg" alt="" width="305" height="305">
+                                    <img sizes="(max-width: 3000px) 40vw, 1200px" srcset="
+                        images/happy_smile_w_380.png 380w,
+                        images/happy_smile_w_853.png 853w,
+                        images/happy_smile_w_1200.png 1200w" src="images/happy_smile_w_1200.png" alt="">
                                 </div>
                                 <p class="card-category">Digital Life</p>
                                 <h3><a href="#">Ut alios omittam, hunc appello, quem ille unum secutus est.</a></h3>
@@ -242,7 +252,10 @@
                         <li class="col-1-3">
                             <article class="card-blog">
                                 <div>
-                                    <img src="images/pic-article-03.jpg" alt="" width="305" height="305">
+                                    <img sizes="(max-width: 3000px) 40vw, 1200px" srcset="
+                        images/natural_smile_w_380.png 380w,
+                        images/natural_smile_w_853.png 853w,
+                        images/natural_smile_w_1200.png 1200w" src="images/natural_smile_w_1200.png" alt="">
                                 </div>
                                 <p class="card-category">Social</p>
                                 <h3><a href="#">Bestiarum vero nullum iudicium puto.</a></h3>
@@ -268,7 +281,7 @@
                     <ul class="row">
                         <li class="col-1-3">
                             <article class="card-testimonial">
-                                <img src="images/pic-person-01.jpg" alt="Yuri Y. avatar" width="100" height="100"
+                                <img src="images/goni.png" alt="Yuri Y. avatar" width="100" height="100"
                                     class="card-avatar">
                                 <blockquote class="card-quote">
                                     <p>I am completely blown away. Thanks to Techium, we’ve just launched our 5th
@@ -280,7 +293,7 @@
                         </li>
                         <li class="col-1-3">
                             <article class="card-testimonial">
-                                <img src="images/pic-person-02.jpg" alt="Dorrie S. avatar" width="100" height="100"
+                                <img src="images/nannie.png" alt="Dorrie S. avatar" width="100" height="100"
                                     class="card-avatar">
                                 <blockquote class="card-quote">
                                     <p>Thank you so much for your help. Techium company is awesome!
@@ -291,7 +304,7 @@
                         </li>
                         <li class="col-1-3">
                             <article class="card-testimonial">
-                                <img src="images/pic-person-03.jpg" alt="Sven H. avatar" width="100" height="100"
+                                <img src="images/henry.png" alt="Sven H. avatar" width="100" height="100"
                                     class="card-avatar">
                                 <blockquote class="card-quote">
                                     <p>I love your system. Definitely worth the investment. I’d be lost without Techium
