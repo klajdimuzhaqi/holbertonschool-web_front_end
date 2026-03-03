@@ -52,12 +52,16 @@
             let before = document.createElement("p");
             before.innerHTML = "Cookie: " + document.cookie;
             document.body.appendChild(before);
+
         }
-        function getCookie(data) {
-            return Object.values(data).map((el, i) => {
-                return el.length < 1 ? "empty" : el
-            })
+        function getCookie(firstname) {
+            if (name.length < 0) {
+                document.getElementById("")
+            } else {
+                document.getElementById("cookieByName").innerHTML = name;
+            }
         }
+
     </script>
 </body>
 
